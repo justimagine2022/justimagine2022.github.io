@@ -2,14 +2,95 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ばうむのポートフォリオサイト</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="img/favicon1.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Portfolio | Just Imagine</title>
 </head>
 <body>
-  <h1>ばうむ</h1>
-  <p>プログラマーになるため勉強中です。</p>
+  <header>
+    <div class="container">
+      <a href="">
+        <h1>
+          <img
+          src="img/titlelogo.png"
+          alt="タイトルロゴ"
+          width="300"
+          height="45">
+        </h1>
+      </a>
+      <nav>
+        <a href="http://twitter.com/JustImagine2022">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <!-- <a href="">
+          <i class="bi bi-envelope"></i>
+        </a> -->
+          <a href="#" class="sp-menu" id="open">
+            <i class="bi bi-list"></i>
+          </a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="overlay">
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="#about" class="about">About</a></li>
+        <li><a href="#works" class="works">Works</a></li>
+      </ul>
+    </nav>
+  </div>
   
+
+
+  <section class="hero">
+    <div class="container">
+      <div class="greetings">
+        <h2>Thank you for visiting my portfolio site.</h2>
+        <h2>Please take a look at the works I have mede so far.</h2>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="container">
+       <section id="about">
+          <h3>About</h3>
+
+          <div class="profile">
+            <div class="portrait">
+              <img 
+              src="img/icon3.png" 
+              alt="顔イラスト"
+              width="100px"
+              height="100px">
+            </div>
+            <div class="name">
+              <p>ばうむ</p>
+            </div>
+          </div>
+          <div class="introduction"> 
+            <p>2021年6月からプログラミング学習開始、HTML、CSS、JavaScriptなどの言語を学習。現在PHPを学習中です。</p>
+          </div>
+      </section>
+
+      <section id="works">
+        <h3>Works</h3>
+          <p>随時更新予定です。</p>
+      </section>
+
+    </div>
+
+    <footer>
+      <small>
+        ©️justimagine 2021
+      </small>
+    </footer>
+
+  </main>
+  <script src="js/main.js"></script>
 </body>
 </html>

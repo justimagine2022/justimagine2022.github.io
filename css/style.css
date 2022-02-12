@@ -5,15 +5,14 @@ body {
 }
 
 h1 {
-  height: 45px;
+  /* height: 45px; */
   margin: 0;
 }
 
 h2 {
   margin: 0;
-  font-size: 20px;
   text-align: center;
-  line-height: 32px;
+  
 }
 
 h3 {
@@ -39,7 +38,6 @@ ul {
 }
 li {
   list-style: none;
- 
 }
 
 img {
@@ -47,7 +45,7 @@ img {
 }
 
 .container {
-  width: calc(100% - 64px);
+  width: calc(100% - 32px);
   margin: 0 auto;
   max-width: 800px;
 }
@@ -76,15 +74,20 @@ header .container nav i {
 }
 
 header .container nav a + a {
-  margin-left: 32px;
+  margin-left: 16px;
 }
 
 header a {
   transition: opacity .3s;
+  
 }
 header a:hover {
   opacity: .7;
   cursor: pointer;
+}
+
+header h1 {
+  line-height: 36px;
 }
 /* sp-menu */
 
@@ -172,6 +175,12 @@ header a:hover {
   background-color: rgba(255, 255, 255, .6);
   border-radius: 16px;
   box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
+  padding: 6px 32px;
+}
+
+.hero h2 {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 /* .hero.hide {
@@ -213,8 +222,8 @@ main section {
   opacity: .8;
 }
 
-.introduction p {
-  margin-top: 16px;
+.introduction {
+  padding: 16px;
 }
 
 /* footer */

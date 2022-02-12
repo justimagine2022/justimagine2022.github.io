@@ -1,52 +1,29 @@
 /* common */
-body {
-  margin: 0;
-  font-family: Silom, Arial, Helvetica, sans-serif;
-}
 
-h1 {
+body, h1, h2, h3, p, a, ul, img {
   margin: 0;
   padding: 0;
+  font-family: Silom, Arial, Helvetica, sans-serif;
 }
-
-h2 {
-  margin: 0;
-  text-align: center;
-  
-}
-
-h3 {
-  color: #4c4b4b;
-  margin: 0;
-  line-height: 32px;
-}
-
 p {
-  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+p, h3, a, i {
   color: #4c4b4b;
 }
 
 a {
   text-decoration: none;
-  color: #4c4b4b;
   display: block;
-  margin: 0;
-  padding: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
 li {
   list-style: none;
 }
 
 img {
   vertical-align: bottom;
-  padding: 0;
-  margin: 0;
 }
 
 .container {
@@ -54,6 +31,7 @@ img {
   margin: 0 auto;
   max-width: 800px;
 }
+
 
 /* header */
 
@@ -73,12 +51,10 @@ header .container {
   justify-content: space-between;
   align-items: center;
   height: 48px;
-  
 }
 
 header .container nav i {
   font-size: 26px;
-  color: #4c4b4b;
 }
 
 header .container nav a + a {
@@ -101,6 +77,12 @@ header h1 {
 header nav {
   display: flex;
 }
+
+header .container nav ul {
+  display: none;
+}
+
+
 /* sp-menu */
 
 .overlay {
@@ -114,7 +96,7 @@ header nav {
   z-index: 1;
   display: flex;
   justify-content: end;
-  /* padding-right: 2px; */
+  padding-right: 2px;
   opacity: 0;
   transition: opacity .6s;
   pointer-events: none;
@@ -157,7 +139,6 @@ header nav {
 }
 
 .overlay a {
-  display: block;
   height: 64px;
   line-height: 64px;
 }
@@ -166,6 +147,7 @@ header nav {
   opacity: .5;
   cursor: pointer;
 }
+
 
 
 /* hero */
@@ -187,12 +169,13 @@ header nav {
   background-color: rgba(255, 255, 255, .6);
   border-radius: 16px;
   box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
-  padding: 6px 84px;
+  padding: 16px ;
 }
 
 .hero h2 {
   font-size: 16px;
   line-height: 24px;
+  text-align: center;
 }
 
 /* .hero.hide {
@@ -204,6 +187,8 @@ header nav {
   margin-top: 64px;
 } */
 
+
+
 /* main */
 
 main .container {
@@ -212,6 +197,11 @@ main .container {
 
 main section {
   padding-top: 48px;
+}
+
+main h3 {
+  color: #4c4b4b;
+  line-height: 32px;
 }
 
 /* about */
@@ -250,3 +240,61 @@ footer {
 }
 
 
+/* large screen */
+
+@media (min-width: 600px) {
+  header img {
+    width: 320px;
+    height: 48px;
+  }
+
+  header .container nav i {
+    font-size: 36px;
+  }
+
+  header .container nav .sp-menu i {
+    display: none;
+  }
+
+  header .container nav ul {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+  }
+
+  header .container nav li {
+    font-size: 24px;
+  }
+
+  header .container nav li + li {
+    margin-left: 32px;
+}
+
+.hero {
+  height: 500px;
+}
+.hero h2 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+main h3 {
+  font-size: 24px;
+}
+
+main p {
+  font-size: 24px;
+}
+
+main .introduction p {
+  font-size: 18px;
+}
+
+main #works p {
+  font-size: 18px;
+  margin-top: 18px;
+}
+
+}

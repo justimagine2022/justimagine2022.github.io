@@ -5,8 +5,8 @@ body {
 }
 
 h1 {
-  /* height: 45px; */
   margin: 0;
+  padding: 0;
 }
 
 h2 {
@@ -30,6 +30,9 @@ p {
 a {
   text-decoration: none;
   color: #4c4b4b;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -42,6 +45,8 @@ li {
 
 img {
   vertical-align: bottom;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -66,10 +71,13 @@ header {
 header .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  
 }
 
 header .container nav i {
-  font-size: 32px;
+  font-size: 26px;
   color: #4c4b4b;
 }
 
@@ -79,15 +87,19 @@ header .container nav a + a {
 
 header a {
   transition: opacity .3s;
-  
 }
+
 header a:hover {
   opacity: .7;
   cursor: pointer;
 }
 
 header h1 {
-  line-height: 36px;
+  line-height: 30px;
+}
+
+header nav {
+  display: flex;
 }
 /* sp-menu */
 

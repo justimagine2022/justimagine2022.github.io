@@ -82,6 +82,16 @@ header .container nav ul {
   display: none;
 }
 
+/* works */
+
+#works a {
+  margin-top: 12px;
+}
+
+#works a:hover {
+  opacity: .7;
+}
+
 
 /* sp-menu */
 

@@ -234,9 +234,10 @@ main h3 {
   opacity: .8;
 }
 
-.introduction {
+.introduction, .text {
   padding: 16px;
 }
+
 
 /* footer */
 

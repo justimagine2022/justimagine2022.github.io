@@ -74,6 +74,12 @@ header h1 {
   line-height: 30px;
 }
 
+header img {
+  height: 30px;
+  width: 200px;
+  object-fit: cover;
+}
+
 header nav {
   display: flex;
 }
@@ -254,10 +260,6 @@ footer {
 /* large screen */
 
 @media (min-width: 600px) {
-  header img {
-    width: 320px;
-    height: 48px;
-  }
 
   header .container nav i {
     font-size: 36px;

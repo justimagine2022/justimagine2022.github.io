@@ -3,14 +3,11 @@
 body, h1, h2, h3, p, a, ul, img {
   margin: 0;
   padding: 0;
-  font-family: Silom, Consolas,Impact, Arial, Helvetica, sans-serif;
-}
-p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Noto Sans JP", "Helvetica Neue", Arial, "Hiragino Sans", sans-serif;
 }
 
 p, h3, a, i {
-  color: #4c4b4b;
+  color: #333;
 }
 
 a {
@@ -216,7 +213,7 @@ main section {
 }
 
 main h3 {
-  color: #4c4b4b;
+  color: #333;
   line-height: 32px;
 }
 
@@ -253,7 +250,7 @@ footer {
   background-color: rgb(230, 252, 236);
   text-align: center;
   padding: 16px 0;
-  color: #4c4b4b;
+  color: #333;
 }
 
 

@@ -93,6 +93,7 @@ header li {
 
 #works a {
   margin-top: 12px;
+  display: inline-block;
 }
 
 #works a:hover {
@@ -311,5 +312,6 @@ main #works p {
   font-size: 18px;
   margin-top: 18px;
 }
+
 
 }

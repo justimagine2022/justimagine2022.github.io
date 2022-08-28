@@ -175,20 +175,24 @@ header li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 300px;
+  height: 100vh;
   width: 100%;
   opacity: .8;
-  object-fit: cover;
-  padding: 48px 0;
-  margin-top: 80px;
+  position: relative;
 }
 
 .hero .greetings {
   background-color: rgba(255, 255, 255, .9);
-  border-radius: 16px;
   box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
-  padding: 16px ;
+  border-radius: 16px;
+  padding: 16px 0;
   opacity: 1;
+  position: absolute;
+  top: 18%;
+  left: 0;
+  right: 0;
+  width: 85%;
+  margin: 0 auto;
 }
 
 .hero h2 {
@@ -219,6 +223,7 @@ main section {
 }
 
 main h3 {
+  font-size: 24px;
   color: #333;
   line-height: 32px;
 }
@@ -288,9 +293,14 @@ footer {
     margin-left: 32px;
 }
 
-.hero {
+header .hero {
   height: 500px;
 }
+
+.hero .greetings {
+  width: 800px;
+}
+
 .hero h2 {
   font-size: 24px;
   line-height: 32px;

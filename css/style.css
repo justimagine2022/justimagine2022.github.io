@@ -176,14 +176,14 @@ header li {
   background-position: center center;
   height: 300px;
   width: 100%;
-  opacity: .7;
+  opacity: .9;
   object-fit: cover;
   padding: 48px 0;
   margin-top: 80px;
 }
 
 .hero .greetings {
-  background-color: rgba(255, 255, 255, .6);
+  background-color: rgba(255, 255, 255, .8);
   border-radius: 16px;
   box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
   padding: 16px ;

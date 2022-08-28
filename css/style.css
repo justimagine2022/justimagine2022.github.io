@@ -7,7 +7,7 @@ body, h1, h2, h3, p, a, ul, img {
 }
 
 p, h3, a, i {
-  color: #333;
+  color: rgb(37, 37, 37);
 }
 
 a {
@@ -176,17 +176,18 @@ header li {
   background-position: center center;
   height: 300px;
   width: 100%;
-  opacity: .9;
+  opacity: .8;
   object-fit: cover;
   padding: 48px 0;
   margin-top: 80px;
 }
 
 .hero .greetings {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, .9);
   border-radius: 16px;
   box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.3);
   padding: 16px ;
+  opacity: 1;
 }
 
 .hero h2 {

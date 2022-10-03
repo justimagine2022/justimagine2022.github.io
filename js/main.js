@@ -1,21 +1,24 @@
 'use strict';
-{
-  const open = document.getElementById('open');
-  const overlay = document.querySelector('.overlay');
-  const about = document.querySelector('.about');
-  const abouttarget = document.getElementById('about');
-  const works = document.querySelector('.works');
-  const hero = document.querySelector('.hero');
 
+const open = document.getElementById('open');
+const overlay = document.querySelector('.overlay');
+const close = document.getElementById('close');
 
-  open.addEventListener('click', () => {
-    overlay.classList.toggle('appear');
+open.addEventListener('click', () => {
+  overlay.classList.add('show');
+  open.classList.add('hide');
+});
+
+close.addEventListener('click', () => {
+  overlay.classList.remove('show');
+  open.classList.remove('hide');
+});
+
+const dts = document.querySelectorAll('dt');
+const material = document.querySelector('.material');
+
+dts.forEach(dt => {
+  dt.addEventListener('click', ()=> {
+    material.classList.toggle('appear');
   });
-  overlay.addEventListener('click', ()=> {
-    overlay.classList.remove('appear');
-  });
-
-  
-
-
-}
+});

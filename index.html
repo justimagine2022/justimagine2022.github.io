@@ -3,113 +3,237 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="img/favicon1.png">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+  <title>Just Imagine</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Portfolio | Just Imagine</title>
+  <link rel="shortcut icon" href="img/favicon1.png" type="image/x-icon">
 </head>
 
 <body>
   <header>
     <div class="container">
-      <a href="">
-        <h1>
-          <img src="img/titlelogo.svg" alt="タイトルロゴ">
-        </h1>
-      </a>
+      <div class="logo">
+        <h1><img src="img/titlelogo.svg" alt="just imagine"></h1>
+      </div>
+      <div class="pc-menu">
+        <nav>
+          <ul>
+            <li><a href="">Top</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Works</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="sp-menu">
+        <i class="bi bi-list" id="open"></i>
+      </div>
+    </div>
+    <div class="overlay">
+      <i class="bi bi-x" id="close"></i>
       <nav>
-
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="#about" class="about">About</a></li>
-          <li><a href="#works" class="works">Works</a></li>
+          <li><a href="">Top</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Works</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">News</a></li>
+          <li><a href="">Contact</a></li>
         </ul>
-
-        <a href="http://twitter.com/JustImagine2022">
-          <i class="bi bi-twitter"></i>
-        </a>
-        <!-- <a href="">
-          <i class="bi bi-envelope"></i>
-        </a> -->
-        <a href="#" class="sp-menu" id="open">
-          <i class="bi bi-list"></i>
-        </a>
       </nav>
     </div>
   </header>
 
-  <div class="overlay">
-    <nav>
-      <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="#about" class="about">About</a></li>
-        <li><a href="#works" class="works">Works</a></li>
-      </ul>
-    </nav>
+  <div class="hero">
+    <img src="img/mainvisual.jpg" alt="">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
   </div>
+  <main>
+    <section class="introduction">
+      <div class="flex-container">
+        <div class="name">
+          <h2>Baum</h2>
+          <h2>Portfolio</h2>
+          <div class="box4"></div>
+          <div class="box5"></div>
+        </div>
+        <div class="id-img">
+          <img src="img/plants.jpg" alt="">
+        </div>
+      </div>
+      <div class="flex-container">
+        <div class="id-img2">
+          <img src="img/dot.jpg" alt="">
+          <div class="box6"></div>
+          <div class="box7"></div>
+        </div>
+        <div class="id-img3">
+          <img src="img/light.jpg" alt="">
+          <div class="box8"></div>
+          <div class="box9"></div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="texture">
+        <div class="pc-texture">
+          <p>Thank you for visiting</p>
+          <h3>About</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card self-id">
+          <p>Baum<span>ばうむ</span></p>
+          <p>プログラミング学習サイト「ドットインストール」でHTML、CSS、JavaScript、phpを学習中です。</p>
+          <p>好きな食べ物はバウムクーヘンです。</p>
+        </div>
+      </div>
+    </section>
+    <section class="works">
+      <div class="texture back">
+        <div class="pc-texture">
+          <h3>Works</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <p>作品名<span>作品名</span></p>
+          <p>説明説明説明説明説明説明説明説明説明説明説明</p>
+          <a href=""><img src="img/works1.jpg" alt=""></a>
+        </div>
+        <div class="card">
+          <p>作品名<span>作品名</span></p>
+          <p>説明説明説明説明説明説明説明説明説明説明説明</p>
+          <a href=""><img src="img/works2.jpg" alt=""></a>
+        </div>
+        <div class="card">
+          <p>作品名<span>作品名</span></p>
+          <p>説明説明説明説明説明説明説明説明説明説明説明</p>
+          <a href=""><img src="img/works3.jpg" alt=""></a>
+        </div>
+      </div>
+      <div class="btn">
+        <p>その他の作品はこちらから</p>
+        <a href="#">More >></a>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="texture back">
+        <div class="pc-texture">
+          <h3>Blog</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <p>記事<span>サブ記事</span></p>
+          <p>記事内容記事内容記事内容記事内容記事内容記事内容</p>
+          <a href=""><img src="img/works1.jpg" alt=""></a>
+        </div>
+        <div class="card">
+          <p>記事<span>サブ記事</span></p>
+          <p>記事内容記事内容記事内容記事内容記事内容記事内容</p>
+          <a href=""><img src="img/works2.jpg" alt=""></a>
+        </div>
+        <div class="card">
+          <p>記事<span>サブ記事</span></p>
+          <p>記事内容記事内容記事内容記事内容記事内容記事内容</p>
+          <a href=""><img src="img/works3.jpg" alt=""></a>
+        </div>
+      </div>
+      <div class="btn">
+        <p>その他の記事はこちらから</p>
+        <a href="#">More >></a>
+      </div>
+    </section>
+    <section class="news">
+      <div class="texture back">
+        <div class="pc-texture">
+          <h3>News</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <p>タイトル<span>サブタイトル</span></p>
+          <p>内容冒頭内容冒頭内容冒頭内容冒頭内容冒頭内容冒頭</p>
+        </div>
+        <div class="card">
+          <p>タイトル<span>サブタイトル</span></p>
+          <p>内容冒頭内容冒頭内容冒頭内容冒頭内容冒頭内容冒頭</p>
+        </div>
+        <div class="card">
+          <p>タイトル<span>サブタイトル</span></p>
+          <p>内容冒頭内容冒頭内容冒頭内容冒頭内容冒頭内容冒頭</p>
+        </div>
+      </div>
+      <div class="btn">
+        <p>過去のニュースへ</p>
+        <a href="#">More >></a>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="texture back">
+        <div class="pc-texture">
+          <h3>Contact</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <p>お問い合せ<span>入力フォーム</span></p>
+          <form>
+            <div class="form-group">
+              <label>
+                Name
+                <input type="text">
+              </label>
+            </div>
+            <div class="form-group">
+              <label>
+                Mail
+                <input type="text">
+              </label>
+            </div>
+            <div class="form-group">
+              <label>
+                Content
+                <textarea></textarea>
+              </label>
+            </div>
+            <div class="form-button">
+              <button>送信</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
 
-
-
-  <section class="hero">
+  <footer>
     <div class="container">
-      <div class="greetings">
-        <h2>Thank you for visiting my portfolio site.</h2>
-        <h2>Please take a look at the works I have mede so far.</h2>
-
+      <div class="footer-logo">
+        <a href="#"><img src="img/titlelogo.svg" alt="タイトルロゴ"></a>
+      </div>
+      <div class="sns">
+        <a href=""><i class="bi bi-twitter"></i></i></a>
+      </div>
+      <div class="material">
+        <dl>
+          <dt>画像について</dt>
+          <dd>画像はフリー素材を使用しています。</dd>
+        </dl>
+      </div>
+      <div class="copyright">
+        <small>&copy; 2022 Just Imagine</small>
       </div>
     </div>
-  </section>
 
-  <main>
-    <div class="container">
-      <section id="about">
-        <h3>About</h3>
+  </footer>
 
-        <div class="profile">
-          <div class="portrait">
-            <img src="img/icon3.png" alt="顔イラスト" width="100px" height="100px">
-          </div>
-          <div class="name">
-            <p>ばうむ</p>
-          </div>
-        </div>
-        <div class="introduction">
-          <p>2021年6月からプログラミング学習開始。</p>
-          <p>プログラミング学習サイト</p>
-          <p>Progate、ドットインストール等でHTML CSS、JavaScriptなどの言語を学習しました。</p>
-        </div>
-      </section>
-
-      <section id="works">
-        <h3>Works</h3>
-        <div class="text">
-          <p>codestepというサイトで模写をしながらコーディングの知識や技術を学んでいます。</p>
-          <ul>
-            <li><a href="https://justimagine2022.github.io/bicycle">模写１</a></li>
-            <li><a href="https://justimagine2022.github.io/photobook">模写２</a></li>
-            <li><a href="https://justimagine2022.github.io/photobook2">模写３</a></li>
-            <li><a href="https://justimagine2022.github.io/recipediary">模写４</a></li>
-            <li><a href="https://justimagine2022.github.io/recipediary2">模写５</a></li>
-            <li><a href="https://justimagine2022.github.io/woodenjewelry">模写６</a></li>
-            <li> <a href="https://justimagine2022.github.io/works">模写７</a></li>
-            <li> <a href="https://justimagine2022.github.io/Mag88">模写８</a></li>
-            <li> <a href="https://justimagine2022.github.io/totally">模写９</a></li>
-            <li> <a href="https://justimagine2022.github.io/wed">模写１０</a></li>
-          </ul>
-        </div>
-
-      </section>
-
-    </div>
-
-    <footer>
-      <small>
-        &copy; justimagine 2021
-      </small>
-    </footer>
-
-  </main>
   <script src="js/main.js"></script>
 </body>
 

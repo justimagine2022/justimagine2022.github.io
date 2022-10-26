@@ -328,7 +328,7 @@ h3 {
 
 .card {
   background:rgb(235, 255, 236);
-  padding: 32px;
+  padding: 16px;
   margin-top: 24px;
   border-radius: 0 16px 16px 0;
   box-shadow:0 0 8px rgba(0, 0, 0, .3);

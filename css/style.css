@@ -28,7 +28,7 @@ a {
 
 .container {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 700px;
   width: calc(100% - 32px);
 }
 
@@ -328,7 +328,7 @@ h3 {
 
 .card {
   background:rgb(235, 255, 236);
-  padding: 16px;
+  padding: 32px;
   margin-top: 24px;
   border-radius: 0 16px 16px 0;
   box-shadow:0 0 8px rgba(0, 0, 0, .3);
@@ -487,6 +487,7 @@ footer .material.appear dt::after {
 
 footer dd {
   margin: 0;
+  width: 300px;
   display: none;
   animation: .3s fadeIn;
 }
@@ -541,7 +542,7 @@ footer dd {
 
   .pc-texture {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 700px;
     width: calc(100% - 16px);
   }
 }

@@ -14,6 +14,11 @@ close.addEventListener('click', () => {
   open.classList.remove('hide');
 });
 
+overlay.addEventListener('click', () => {
+  overlay.classList.remove('show');
+  open.classList.remove('hide');
+});
+
 const dts = document.querySelectorAll('dt');
 const material = document.querySelector('.material');
 

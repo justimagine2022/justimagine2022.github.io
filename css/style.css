@@ -371,6 +371,11 @@ h3 {
   object-fit: contain;
 }
 
+.card.bingo img {
+  object-fit: cover;
+  object-position: top center;
+}
+
 .card img:hover {
   opacity: .8;
 }

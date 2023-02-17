@@ -20,7 +20,7 @@ overlay.addEventListener('click', () => {
 });
 
 const dts = document.querySelectorAll('dt');
-const material = document.querySelector('.material');
+const material = document.querySelector('.codememo');
 
 dts.forEach(dt => {
   dt.addEventListener('click', ()=> {

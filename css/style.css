@@ -24,6 +24,7 @@ img {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .container {
@@ -470,7 +471,7 @@ footer .material {
   font-size: 12px;
 }
 
-footer .material.appear dd {
+footer .codememo.appear dd {
   display: block;
 }
 
@@ -494,7 +495,7 @@ footer dt::after {
   transition: .3s;
 }
 
-footer .material.appear dt::after {
+footer .codememo.appear dt::after {
   transform: rotate(45deg);
 }
 
